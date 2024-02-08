@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap');
+
+
+body{
+    font-family: 'Glass Antiqua', cursive;
+    overflow: hidden;
+}
+
+/* IMAGE BACK-GROUND */
+.poire {
+    background-size:  cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.village {
+    background-size:  cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    height: 100vh;
+}
+
+.clairiere {
+    background-size:  cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    height: 100vh;
+}
+/* ------------------------- */
+
+ /* IMAGES HEROS INDEX */
+ .yugo {
+    height: 210px;
+    width: 130px;
+    margin: auto;
+    margin-top: 55px;
+    
+}
+
+.pinpin {
+    width: 130px;
+    margin: auto;
+    margin-top: 50px;
+} 
+
+.eve {
+    height: 210px;
+    width: 130px;
+    margin: auto;
+    margin-top: 55px;
+}
+
+.picto_aide {
+    height: 210px;
+    width: 200px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+#heal {
+    height: 35px;
+    display: block;
+    margin: auto;
+}
+
+#swords{
+    height: 30px;
+    display: block;
+    margin: auto;
+}
+
+#boost {
+    height: 30px;
+    display: block;
+    margin: auto;
+}
+
+#form {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fin{
+    height: 30px;
+}
+/* ------------------------- */
+
+/* FIGHT */
+.oropo {
+    height: 210px;
+    width: 130px;
+    margin: auto;
+    margin-top: 55px;
+    
+}
+
+.adamai{
+    width: 130px;
+    margin: auto;
+    margin-top: 50px;
+} 
+
+.echo {
+    height: 210px;
+    width: 130px;
+    margin: auto;
+    margin-top: 55px;
+}
+
+#score_hero {
+    color: white;
+    font-size: 30px;
+    text-align: end;
+}
+
+#score_monster {
+    color: white;
+    font-size: 30px;
+    text-align: start;
+}
+
+#home {
+    height:100px;
+}
+
+#issue {
+    height: 30px;
+}
+
+/* ------------------------- */
+
+/* IMAGES COMBATTANTS */
+.cardd{
+    border: 0px;
+}
+
+.combattants{
+    overflow: hidden;
+}
+
+.perso {
+    width: 100%;
+    height:500px;
+    object-fit: contain;
+}
+
+.ornement {
+    margin-bottom: 50px;
+}
+
+.card-title {
+    height: 50px;
+}
+
+/* .marge {
+    height: 10%;
+} */
+
+/* ------------------------- */
+
+/* Image page victoire*/
+
+.home_end {
+    height: 30px;
+}
+
+.containerr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh; /* Ajuster en fonction de la hauteur souhaitée */
+}
+
+.vic {
+    height: 300px; /* Taille de votre image */
+    width: 600px; /* Taille de votre image */
+    text-align: center;
+}
+
+.pouf {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: 10;
+}
+
+/* ------------------------- */
+
+.logo {
+    display: block;
+    margin: auto;
+    height: 400px;
+}
+
+.heros {
+    position: relative;
+    bottom: -50px;
+}
+
+.bouton {
+    display: block;
+    margin: auto;
+}
+
+.blur{
+    background-color: rgba(255, 255, 255, 0.535);
+}
+
+.blurr{
+    background-color: rgba(255, 255, 255, 0);
+}
+
